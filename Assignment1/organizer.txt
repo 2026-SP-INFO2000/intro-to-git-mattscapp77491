@@ -1,0 +1,11 @@
+#!/bin/bash
+mv disorganized_structure organized_structure
+cd organized_structure
+mkdir entertainment recipes sports technology travel
+mv entertainment_file* entertainment
+mv recipes_file* recipes
+mv sports_file* sports
+mv technology_file* technology
+mv travel_file* travel
+cd ..
+ls organized_structure/* >> organized_structure/output.txt
